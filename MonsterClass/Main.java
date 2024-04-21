@@ -1,11 +1,11 @@
 import java.io.IOException;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException{
         // DECLARE Instance Object
         // CLASSNAME instancevariable = new CLASSNAME();
-        Monster monster = new Monster();
+        //Monster monster = new Monster();
+        XMLReader xmlreader = new XMLReader("<stats>");
 
         //System.out.println("Provide an ID number: ");
         //Scanner sc = new Scanner(System.in);
@@ -17,7 +17,8 @@ public class Main {
 
         //monster is instance obj, Monster is class
 
-        System.out.println(monster);
+        //System.out.println(monster);
+
 
     }
 }

@@ -153,7 +153,7 @@ public class Monster {
                 this.pokeHeight/12, this.pokeHeight%12);
     }
 
-    public String typeString(){
+    public void typeString(){
         String newTypeString = "";
         for (String type : pokeType){
             newTypeString += type;

@@ -1,11 +1,12 @@
-import java.io.IOException;
-
 public class Main {
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args){
         // DECLARE Instance Object
         // CLASSNAME instancevariable = new CLASSNAME();
         //Monster monster = new Monster();
-        XMLReader xmlreader = new XMLReader("<stats>");
+
+        XMLReader xmlreader = new XMLReader();
+        System.out.println(xmlreader.outputMap);
+
 
         //System.out.println("Provide an ID number: ");
         //Scanner sc = new Scanner(System.in);

@@ -1,6 +1,6 @@
 name: Simple GitHub Actions workflow
 
-on: [push]
+on: [commit]
 
 jobs:
   say_hello:

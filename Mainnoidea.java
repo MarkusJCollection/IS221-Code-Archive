@@ -26,7 +26,7 @@ public class Main {
     //Beginning of lists of strings asking questions
     //such as the day's date, and other relevant items.
 
-    //Asking of day numbers.
+    //Asking of the day numbers.
         System.out.print("What is today's date in DD/MM/YYYY?\n (DD): ");
         dateNumbers = sc.nextInt();
         sc.nextLine();
